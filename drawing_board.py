@@ -10,7 +10,7 @@ BRUSH_RADIUS = 1  # Radius of brush in cells (1 = 3x3 brush, 2 = 5x5, etc.)
 class DrawingBoard(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Silly Digit Guesser: Only can guess one digit")
+        self.title("Guess Digit NN")
         self.canvas = tk.Canvas(self, width=CELL_SIZE*GRID_SIZE, height=CELL_SIZE*GRID_SIZE, bg='white')
         self.canvas.pack()
         
