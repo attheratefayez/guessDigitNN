@@ -7,6 +7,9 @@ and ask the app to guess what number you have drawn. Under
 the hood, a pre-trained Convolutional Neural Network model 
 gets the drawing, and tries to predict which number was drawn. 
 
+The ConvNet model was createing using [this example](https://keras.io/examples/vision/mnist_convnet/)
+from keras examples section.
+
 ## Dependencies 
 Dependencies are listed in the `requirements.txt` file.
 
