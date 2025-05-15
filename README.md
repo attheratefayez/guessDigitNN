@@ -15,11 +15,14 @@ Dependencies are listed in the `requirements.txt` file.
 Create a virtual environment and activate it.
 then Run:
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 Once the requirements are installed, run: 
-
-`python3 app.py`
+```
+python3 app.py
+```
 
 ## Controls: 
 
