@@ -1,5 +1,7 @@
 # Guess Digit NN
 
+![App Screenshot](./GuessNumberNN.png)
+
 This is a basic app where you can draw a number on a canvas 
 and ask the app to guess what number you have drawn. Under 
 the hood, a pre-trained Convolutional Neural Network model 
