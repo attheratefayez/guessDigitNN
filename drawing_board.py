@@ -101,9 +101,10 @@ class DrawingBoard(tk.Tk):
         predictions = self.nn_model.predict(board_data, verbose = 0).squeeze()
 
         predicted_numbers = np.argsort(predictions)[-2:][::-1]
+        prediction_confidence = [predictions[i] for i in predicted_numbers]
 
-        self.prediction_label_1.config(text = f"First Guess: {predicted_numbers[0]}")
-        self.prediction_label_2.config(text = f"Second Guess: {predicted_numbers[1]}")
+        self.prediction_label_1.config(text = f"First Guess: {predicted_numbers[0]} ( {float(prediction_confidence[0]):.2f} )")
+        self.prediction_label_2.config(text = f"Second Guess: {predicted_numbers[1]} ( {float(prediction_confidence[1]):.2f} )")
 
         self.help_label.config(text = "Double click Right-Mouse-Button to clear canvas.")
 
