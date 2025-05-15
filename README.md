@@ -1,6 +1,6 @@
 # Guess Digit NN
 
-![App Screenshot](./GuessNumberNN.png)
+<img src="./GuessNumberNN.png" width = "400" align="right">
 
 This is a basic app where you can draw a number on a canvas 
 and ask the app to guess what number you have drawn. Under 
@@ -23,7 +23,7 @@ Once the requirements are installed, run:
 
 ## Controls: 
 
-    [] Draw with mouse left button pressed
-    [] Make a prediction by pressing space or Right-Mouse-Button
-    [] Clear the canvas by double-clicking Right-Mouse-Button
+- Draw with mouse left button pressed
+- Make a prediction by pressing space or Right-Mouse-Button
+- Clear the canvas by double-clicking Right-Mouse-Button
 
